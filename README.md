@@ -12,7 +12,7 @@ soysay [input] (must be in quotation marks) (args)
         print(" --gapejak       Uses the Gapejak
         print(" --cobson        Uses the Cobson soyjak
         print(" --markiplier    Uses the Markiplier soyjak
-## Building (For Windows 
+## Building (For Windows)
 Requirements:
 - Python 3.8 or higher
 - Py2exe 0.13.0.1
