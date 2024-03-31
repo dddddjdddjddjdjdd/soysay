@@ -1,7 +1,7 @@
 # soysay
 make LE SOY BOYS say whatever you want!
 Tested on Python 3.12 and Python 3.8.10 but will likely work on future or older releases.
-![soysay showcase](showcase.png)
+![soysay showcase](https://i.ibb.co/DQL96fW/showcase.png)
 ## Usage
 soysay [input] (must be in quotation marks) (args)
 ## Options
