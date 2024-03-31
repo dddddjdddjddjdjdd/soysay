@@ -1,7 +1,8 @@
 # soysay
+![soysay showcase](https://i.ibb.co/DQL96fW/showcase.png)
+
 make LE SOY BOYS say whatever you want!
 Tested on Python 3.12 and Python 3.8.10 but will likely work on future or older releases.
-![soysay showcase](https://i.ibb.co/DQL96fW/showcase.png)
 ## Usage
 soysay [input] (must be in quotation marks) (args)
 ## Options
@@ -18,7 +19,12 @@ soysay [input] (must be in quotation marks) (args)
 --cobson        Uses the Cobson soyjak
 
 --markiplier    Uses the Markiplier soyjak
-## Building (For Windows)
+
+## Future plans
+- Make it so you don't need to put your string in quotation marks
+- Make arguments work properly so they don't have to be placed after the string
+
+## Building
 Requirements:
 - Python 3.8 or higher
 - Py2exe 0.13.0.1
