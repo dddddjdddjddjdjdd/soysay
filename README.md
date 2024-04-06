@@ -20,13 +20,17 @@ soysay [input] (must be in quotation marks) (args)
 
 --markiplier    Uses the Markiplier soyjak
 
+--chud          Uses the Chudjak
+
+Note: If no options are provided, soysay will use the standard soyjak
+
 ## Future plans
 - Make it so you don't need to put your string in quotation marks
 - Make arguments work properly so they don't have to be placed after the string
 
 ## Building
 Requirements:
-- Python 3.8 or higher
+- Python 3.8.0 - 3.11.x
 - Py2exe 0.13.0.1
 
 Method:
