@@ -12,7 +12,7 @@ def main():
     if len(sys.argv) < 2 or "-h" in opts:
         print("Usage: soysay [input] (must be in quotation marks) (args)")
         print("Options:")
-        print(" --h, --help     Prints out this help message (also shown when no input is provided")
+        print(" -h, --help      Prints out this help message (also shown when no input is provided")
         print(" --random        Picks a random soyjak to display")
         print()
         print(" --snoo          Uses the Snoojak")
@@ -20,7 +20,7 @@ def main():
         print(" --cobson        Uses the Cobson soyjak")
         print(" --markiplier    Uses the Markiplier soyjak")
         print(" --chud          Uses the Chudjak")
-        print("Note: if no options are provided, soysay will use the standard soyjak.")
+        print("Note: If no options are provided, soysay will use the standard soyjak.")
         return
     userInput = sys.argv[1]
     while counter < len(userInput) + 2:
@@ -151,7 +151,7 @@ def main():
         print("     #.-+#-   ##################   #   #    ")
         print("     ## # #   ##################    ## ##   ")
         print("   ### #####  ##################  #   #.#   ")
-        print("#      .-  #  ##################  . ###- ## ")
+        print("     ##.-  #  ##################  . ###- ## ")
         print("     - ##  +  ##################   ##-   #  ")
         print("      ## -  .  ################  +  ## #+#  ")
         print("       #+.# .   ##############   #.# # +#   ")
