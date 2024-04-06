@@ -15,11 +15,12 @@ def main():
         print(" --h, --help     Prints out this help message (also shown when no input is provided")
         print(" --random        Picks a random soyjak to display")
         print()
-        print(" --soyjak        Uses the standard default soyjak")
-        print(" --snoojak       Uses the Snoojak")
-        print(" --gapejak       Uses the Gapejak")
+        print(" --snoo          Uses the Snoojak")
+        print(" --gape          Uses the Gapejak")
         print(" --cobson        Uses the Cobson soyjak")
         print(" --markiplier    Uses the Markiplier soyjak")
+        print(" --chud          Uses the Chudjak")
+        print("Note: if no options are provided, soysay will use the standard soyjak.")
         return
     userInput = sys.argv[1]
     while counter < len(userInput) + 2:
@@ -31,9 +32,9 @@ def main():
     print(bottomOfBubble)
     
     def Soyjak():
-        print("     \\                                      ")
-        print("      \\     ...-############-...            ")
-        print("       \\   -++--.            .--++-         ")
+        print("     \\                                     ")
+        print("      \\     ...-############-...           ")
+        print("       \\   -++--.            .--++-        ")
         print("       ..+-          ...         -+...      ")
         print("     -+-.           .-.          .--+-      ")
         print("    ++             ......            -#.    ")
@@ -185,7 +186,7 @@ def main():
         print("  #      ################   .         ##-+. ")
         print(" .#      ################    +     # ####   ")
         print("  ##   .  ###############            # ##-  ")
-        print("  ###     ###############   #        - #### ")
+        print("   #+      #############              +#    ")
         print("   ##.     #############             ###.   ")
         print("    +#     -##########-#           # ####   ")
         print("    ##      # ######.##       #   ## ##     ")
@@ -198,9 +199,35 @@ def main():
         print("           .-##+     +# ### #.#             ")
         print("              ##+###++####    #             ")
         print("              . ##   # #                    ")
-
+    def Chudjak():
+        print("     \\                                     ")    
+        print("      \\            ##########              ")
+        print("       \\       #####################       ")
+        print("        \\   ###########################    ")
+        print("            #################      ++ ###   ")
+        print("           #########                    #   ")
+        print("           #######.                      #  ")
+        print("           #######                        # ")
+        print("           ######                 .       # ")
+        print("            #####            #    #       # ")
+        print("             ###    -----.   .    .   .---  ")
+        print("             ##     ### #####     # --####  ")
+        print("            #       #         ## ###      # ")
+        print("           #        # - ###.       # ###  # ")
+        print("           #        ##  ++   #     #  #   # ")
+        print("           #                +      +######  ")
+        print("           #                              + ")
+        print("           #               #+#      -    +  ")
+        print("           #               .# ##  ##        ")
+        print("           #              #            #    ")
+        print("           #               #    +           ")
+        print("           #                #     # #.      ")
+        print("                               +    #       ")
+        print("          #                        #        ")
+        print("         #     +               ##           ")
+        print("       #     .             +##  ##          ")
     if "--random" in opts:
-        random = choice(["soy", "cob", "snoo", "mark", "gape"])
+        random = choice(["soy", "cob", "snoo", "mark", "gape", "chud"])
         if random == "soy":
             Soyjak()
             exit()
@@ -216,14 +243,19 @@ def main():
         if random == "gape":
             Gapejak()
             exit()
+        if random == "chud":
+            Chudjak()
+            exit()
     if "--cobson" in opts:
         Cobson()
-    if "--gapejak" in opts:
+    elif "--gape" in opts:
         Gapejak()
-    elif "--snoojak" in opts:
+    elif "--snoo" in opts:
         Snoojak()
     elif "--markiplier" in opts:
         Markiplier()
+    elif "--chud" in opts:
+        Chudjak()
     else: Soyjak()
 
 if __name__ == "__main__":
