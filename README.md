@@ -2,7 +2,7 @@
 ![soysay showcase](https://i.ibb.co/DQL96fW/showcase.png)
 
 make LE SOY BOYS say whatever you want!
-Tested on Python 3.12 and Python 3.8.10 but will likely work on future or older releases.
+Officially supports Python 3.8.0 and above. The script may work on older versions but Py2Exe only works on 3.8+ which leaves no real reason to bother testing it on 3.7 and below. I intend on retaining support for 3.8.x until at the very least October 2024 when Python drops support for 3.8.
 ## Usage
 soysay [input] (must be in quotation marks) (args)
 ## Options
